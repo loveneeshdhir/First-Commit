@@ -26,7 +26,7 @@ const IndexPage = () => (
     <h3>Step 3</h3>
     <p>
       Let's start working on the changes required now! First cd into the cloned folder by typing the following command.
-      <Code code="cd GitMe"/>
+      <Code code="cd First-Commit"/>
       Now, Before jumping in to the code, make sure you're working on a different branch and not in master. To create a new branch, 
       from the terminal inside your current project directory type the following command.
       <Code code="git branch YOUR_USERNAME-profile"/>
@@ -38,7 +38,7 @@ const IndexPage = () => (
     <h3>Step 4</h3>
     <p>
       In your <i className="em em-card_file_box"></i> file manager/terminal navigate to the downloaded repo. Open the sub-directory <i className="em em-file_folder"></i><b>src/profiles/</b>. and create a new <b>.md</b> file with your username as the filename with <b>.md</b> extension.<br/>
-      It should look like <b>YOUR_USER_NAME.md</b> <i>eg: haxzie.md </i><br/>
+      It should look like <b>YOUR_USER_NAME.md</b> <i>eg: loveneeshdhir.md </i><br/>
       Open this file in your favourite editor and fill the details as below in the frontmatter of the markdown file.
       <br/>
       <i className="em em-page_facing_up"></i><i>YOUR_USER_NAME.md</i>
@@ -55,7 +55,7 @@ const IndexPage = () => (
     <h3>Step 5</h3>
     <p>
       Commit the changes with a suitable commit message.<i className="em em-white_check_mark"></i> First we need to stage all the changes we made. Open the terminal inside the project directory and execute following commands.
-      <Code code="git add -A"/>
+      <Code code="git add filename"/>
       The above command stages all the changes, now lets commit it with a suitable message.
       <Code code='git commit -m "YOUR_COMMIT_MESSAGE"'/>
     </p>
